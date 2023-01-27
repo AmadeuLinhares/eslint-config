@@ -1,6 +1,6 @@
 {
   "name": "@amadeulinhares/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint and Prettier configuration",
   "main": "index.js",
   "keywords": ["eslint", "prettier"],
@@ -29,6 +29,7 @@
     "@typescript-eslint/parser": "^5.49.0"
   },
   "eslintConfig": {
+    "extends": "plugin:unicorn/recommended",
     "env": {
 			"es2022": true
 		},
@@ -41,7 +42,12 @@
 		],
 		"rules": {
 			"unicorn/better-regex": "error",
-      "unicorn/explicit-length-check": "error",
+      "unicorn/explicit-length-check": [
+        "error",
+        {
+          "non-zero": "not-equal"
+        }
+      ],
       "unicorn/consistent-function-scoping": "error",
       "unicorn/consistent-destructuring": "error",
       "unicorn/no-empty-file": "error",
