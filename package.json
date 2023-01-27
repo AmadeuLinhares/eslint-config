@@ -1,14 +1,11 @@
 {
   "name": "@amadeulinhares/eslint-config",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eslint and Prettier configuration",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["eslint", "prettier"],
+  "author": "Amadeu Linhares",
+  "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.49.0",
     "eslint": "^8.32.0",
