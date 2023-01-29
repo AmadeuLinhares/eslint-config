@@ -11,7 +11,7 @@ module.exports = {
     'standard',
     'plugin:jsx-a11y/recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:import/recommended',
+    // 'plugin:import/recommended',
     'plugin:import/typescript',
     'plugin:prettier/recommended',
   ],
