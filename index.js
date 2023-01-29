@@ -144,6 +144,14 @@ module.exports = {
     react: {
       version: 'detect',
     },
+    'import/resolver': {
+      typescript: {
+        project: `.`,
+      },
+      node: {
+        extensions: ['.ts', '.tsx', '.native.js'],
+      },
+    },
     'import/parsers': {
       [require.resolve('@typescript-eslint/parser')]: ['.ts', '.tsx', '.d.ts'],
     },
