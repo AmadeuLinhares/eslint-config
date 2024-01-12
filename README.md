@@ -12,13 +12,13 @@
 
 1. Install the dependencies
 ```
-npm i -D @amadeulinhares/eslint-config
+npm i -D @linharestechnology/eslint-config
 ```
 
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@amadeulinhares/eslint-config"
+  "extends": "@linharestechnology/eslint-config"
 }
 ```
 
