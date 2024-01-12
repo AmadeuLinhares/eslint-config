@@ -1,5 +1,3 @@
-# Rocketseat ESLint config
-
 ## Whats included?
 
 - Standard config base;
