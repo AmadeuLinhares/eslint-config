@@ -74,5 +74,16 @@
       "unicorn/prefer-ternary": "error",
       "unicorn/no-abusive-eslint-disable": "error"
     }
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AmadeuLinhares/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AmadeuLinhares/eslint-config/issues"
+  },
+  "homepage": "https://github.com/AmadeuLinhares/eslint-config#readme"
 }
