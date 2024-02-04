@@ -1,6 +1,6 @@
 {
   "name": "@linharestechnology/eslint-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Eslint and Prettier configuration",
   "main": "index.js",
   "keywords": [
