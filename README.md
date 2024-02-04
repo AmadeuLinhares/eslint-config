@@ -18,7 +18,7 @@ npm i -D @linharestechnology/eslint-config
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@linharestechnology/eslint-config"
+  "extends": "@linharestechnology/eslint-config/next"
 }
 ```
 
